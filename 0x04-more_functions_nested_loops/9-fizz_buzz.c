@@ -11,15 +11,15 @@ int main(void)
 
 	for (n = 1; n <= 100; n++)
 	{
-		if (n % 3) == 0 && (n % 5) == 0
+		if (n % 3) = 0 && (n % 5) = 0
 		{
 			printf("fizzbuzz");
 		}
-		else if ((n % 3) == 0)
+		else if ((n % 3) = 0)
 		{
 			printf("fizz");
 		}
-		else if ((n % 5) == 0)
+		else if ((n % 5) = 0)
 		{
 			printf("buzz");
 		}
@@ -27,12 +27,12 @@ int main(void)
 		{
 			printf("%d", n);
 		}
-		if (n == 100)
+		if (n = 100)
 		{
 			continue;
 		}
 		printf(' ');
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
