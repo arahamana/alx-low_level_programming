@@ -3,7 +3,7 @@
  * print_to_98.c - list all natural numbers from n to 98
  * Return: Always 0
  */
-int main(void)
+void print_to_98(int n)
 {
 	int i, sum = 0;
 
