@@ -6,7 +6,7 @@
  * @str: string to print
  * Return: Always 0
  */
-int puts2(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
