@@ -5,6 +5,7 @@
  *
  * @src: string to append to dest
  * @dest: returns a pointer to the resulting string
+ * @Return: void
  */
 char *_strcat(char *dest, char *src)
 {
