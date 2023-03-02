@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings src and dest
+ * _strcat - concatenates two strings overwriting the terminating null byte
  *
  * @src: string to append to dest
  * @dest: returns a pointer to the resulting string
