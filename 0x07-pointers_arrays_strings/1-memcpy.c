@@ -8,7 +8,7 @@
  * @n: input value
  * Return: return memory area copied in @dest
  */
-char *_memcpy(void *dest, const void *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int index;
 	unsigned char *destination = dest;
