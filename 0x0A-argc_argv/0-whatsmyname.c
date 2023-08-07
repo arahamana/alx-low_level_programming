@@ -2,16 +2,15 @@
 #include "main.h"
 
 /*
- *whatsmymame - prints name of program, followed by a new line
+ * int main - prints name of program followed by a new line
  * argc - argument count
- * argv - array of arguments
- *
- * Return: Aways 0 for success
+ * argv - argument vector or string of arrays
+ * return - always 0 on success
  */
 
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv[0]);
+	printf("my name is %s\n", argv[0]);
 
 	return (0);
 }
