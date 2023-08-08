@@ -10,6 +10,8 @@
 
 int main(int argc _attribute_((unused)), char *argv[])
 {
+	(void) *argv;
+
 	printf("%s\n", *argv);
 
 	return (0);
