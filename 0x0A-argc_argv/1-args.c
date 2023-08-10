@@ -2,7 +2,7 @@
 #include "main.h"
 
 /*
- * main - prints number of arguments passed onto it
+ * int main - starting point of program execution
  * argc:  argument count
  * argv: argument vector or string of arrays
  * char: - character
